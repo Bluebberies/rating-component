@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container{
+    background: hsl(213, 19%, 18%);
+    border-radius: 1rem;
+    height: 20rem;
+    width: 18rem;
+    padding: 1.5rem;
+}
+
+.container2{
+    background: hsl(213, 19%, 18%);
+    border-radius: 1rem;
+    height: 20rem;
+    width: 18rem;
+    padding: 1.5rem;
+    display: none;
+}
+
+
+.heading{
+    color: hsl(0, 0%, 100%);
+    font-size: 17px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.star{
+    background-color: hsl(216, 11%, 26%);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.text{
+    color: hsl(216, 12%, 54%);
+    padding-top: 11px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.rates{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.rates button{
+    background-color: hsl(216, 11%, 26%);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: hsl(216, 12%, 54%);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.rates button:hover{
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+form .rates button:focus{
+    background-color: hsl(25, 97%, 53%);
+}
+
+button{
+    margin-top: 1.7rem;
+    background-color: hsl(25, 97%, 53%);
+    width: 15rem;
+    height: 2.9rem;
+    border-radius: 3rem;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.t-image{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.tag{
+    background-color:  hsl(216, 11%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 2rem;
+    width: 11rem;
+    height: 1.7rem;
+    margin-top: 19px;
+    margin-left: 27px;
+}
+
+.tag p{
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+}
+
+.s-text{
+    margin-left: 1.6rem;
+    margin-top: 1.5rem;
+}
+
+.s-text h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    margin-left: 3rem;
+}
+
+.s-text p{
+    color: hsl(216, 12%, 54%);
+    font-size: 10px;
+    margin-top: 1.2rem;
+    font-weight: bolder;
+}
+
+.s-text p .spn{
+    margin-left: 3rem;
+}
