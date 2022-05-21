@@ -40,7 +40,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@Bluebberies](https://www.frontendmentor.io/profile/Bluebberies)
 - Twitter - [@Francis98648080](https://www.twitter.com/Francis98648080)
 

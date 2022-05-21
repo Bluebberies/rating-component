@@ -77,12 +77,13 @@ body{
 }
 
 .rates button:hover{
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
 
 form .rates button:focus{
-    background-color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
 }
 
 button{
